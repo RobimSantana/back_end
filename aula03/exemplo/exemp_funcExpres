@@ -1,0 +1,8 @@
+
+soma(2,3) // ERRO!
+
+const soma = function(a,b) {
+    return a+b
+}
+
+soma(1,2)  // Saida: 3
