@@ -3,8 +3,9 @@ function somar (){
 
     for (i in arguments){
         soma += arguments [i]
+        return soma
     }
-    return soma
+    
 }
 
 console.log(somar())
